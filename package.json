@@ -1,0 +1,17 @@
+{
+  "name": "electron-store-persistence",
+  "version": "1.0.0",
+  "description": "This is a project dealing with data persistence implementation with electron store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Devendra Pratap Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.2"
+  },
+  "dependencies": {
+    "electron-store": "^7.0.3"
+  }
+}
