@@ -8,10 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
         },
         name: {
             type: 'string'
-        },
-        // zone: {
-        //     type: 'string'
-        // }
+        }
     }
     const store = new Store({
         schema: userSchema,
