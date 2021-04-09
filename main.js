@@ -1,8 +1,10 @@
 const { app, BrowserWindow, ipcMain } = require('electron')
 const Store = require('electron-store');
 const path  = require('path');
+const keytar = require('keytar');
 
 Store.initRenderer();
+keytar.setPassword('electronSystem', 'loginUser', '1234567890-poiuyhjklmnb-vcxzhgfdytre-qwaszx-1234567890');
   
 function createWindow () {
   
